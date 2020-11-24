@@ -1,0 +1,30 @@
+@import "../../variables";
+
+.navbar__ {
+  &root {
+    display: flex;
+    height: 100%;
+  }
+
+  &inner {
+    height: 100%;
+    width: $navbar-width;
+    background-color: #333333;
+  }
+
+  &nav-link {
+    color: #e0e0d0;
+    font-size: 24px;
+  }
+
+  &active-link {
+    color: #ffffff;
+  }
+
+  &list {
+    list-style: none;
+    li {
+      margin-top: 24px;
+    }
+  }
+}
